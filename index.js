@@ -30,5 +30,21 @@ client.on("message", async message => {
     // Check if the message has prefix at the start
     if(message.content.indexOf(config.prefix) != 0) return
 
+    // Get the arguments if they exist
+    const args = message.content.slice(config.prefix.length).split(" ")
+
+    // Get the command
+    const command = args.shift().toLowerCase()
+
+    // Execution of command say
+    if(command == "say") {
+        // Combining array into the string
+        toSend = args.join(" ")
+        // Deleting the message of the command(To become not noticed)
+        message.delete()
+        // And sending the message
+        message.channel.send(toSend)
+    }
+        
 })
 
