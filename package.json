@@ -1,7 +1,7 @@
 {
     "name": "mum-bot",
     "version": "1.0.0",
-    "main": "index.py",
+    "main": "index.js",
     "author": "Gejid",
     "license": "ISC"
 }
