@@ -1,0 +1,7 @@
+{
+    "name": "mum-bot",
+    "version": "1.0.0",
+    "main": "index.py",
+    "author": "Gejid",
+    "license": "ISC"
+}

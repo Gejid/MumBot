@@ -1,6 +1,6 @@
 const discord = require("discord.js")
 const client = new discord.Client()
-const fs = require("fs")wawwd w
+const fs = require("fs")
 const token = fs.readFileSync("token", "utf8")
 
 client.login(token)
