@@ -1,3 +1,3 @@
 # MumBot
-Special bot for Discord.
-Using Node JS, Discord API.
+# Special bot for Discord.
+# Using Node JS, Discord API.
